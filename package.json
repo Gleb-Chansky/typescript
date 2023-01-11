@@ -1,0 +1,24 @@
+{
+  "name": "gb_typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf public/scripts && tsc",
+    "build:dev": "rm -rf public/scripts && tsc -p tsconfig-dev.json",
+    "start": "http-server -p 3000"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "8.25.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
