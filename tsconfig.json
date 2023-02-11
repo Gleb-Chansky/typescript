@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig-check.json",
+  "compilerOptions": {
+    "outDir": "public/scripts",
+    "target": "ES2015",
+    "module": "ES2015",
+    "moduleResolution": "Node",
+    "allowJs": true,
+  },
+  "files": ["src/index.ts"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
